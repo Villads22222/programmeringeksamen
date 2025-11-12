@@ -1,0 +1,21 @@
+/Users/villadsagerholm/Desktop/Programering c med kennet/bin/Debug/net9.0/Programering c med kennet
+/Users/villadsagerholm/Desktop/Programering c med kennet/bin/Debug/net9.0/Programering c med kennet.deps.json
+/Users/villadsagerholm/Desktop/Programering c med kennet/bin/Debug/net9.0/Programering c med kennet.runtimeconfig.json
+/Users/villadsagerholm/Desktop/Programering c med kennet/bin/Debug/net9.0/Programering c med kennet.dll
+/Users/villadsagerholm/Desktop/Programering c med kennet/bin/Debug/net9.0/Programering c med kennet.pdb
+/Users/villadsagerholm/Desktop/Programering c med kennet/obj/Debug/net9.0/Programering c med kennet.GeneratedMSBuildEditorConfig.editorconfig
+/Users/villadsagerholm/Desktop/Programering c med kennet/obj/Debug/net9.0/Programering c med kennet.AssemblyInfoInputs.cache
+/Users/villadsagerholm/Desktop/Programering c med kennet/obj/Debug/net9.0/Programering c med kennet.AssemblyInfo.cs
+/Users/villadsagerholm/Desktop/Programering c med kennet/obj/Debug/net9.0/Programering c med kennet.csproj.CoreCompileInputs.cache
+/Users/villadsagerholm/Desktop/Programering c med kennet/obj/Debug/net9.0/Programering c med kennet.dll
+/Users/villadsagerholm/Desktop/Programering c med kennet/obj/Debug/net9.0/refint/Programering c med kennet.dll
+/Users/villadsagerholm/Desktop/Programering c med kennet/obj/Debug/net9.0/Programering c med kennet.pdb
+/Users/villadsagerholm/Desktop/Programering c med kennet/obj/Debug/net9.0/Programering c med kennet.genruntimeconfig.cache
+/Users/villadsagerholm/Desktop/Programering c med kennet/obj/Debug/net9.0/ref/Programering c med kennet.dll
+/Users/villadsagerholm/Desktop/Programering c med kennet/bin/Debug/net9.0/CsvHelper.dll
+/Users/villadsagerholm/Desktop/Programering c med kennet/bin/Debug/net9.0/Flurl.dll
+/Users/villadsagerholm/Desktop/Programering c med kennet/bin/Debug/net9.0/Flurl.Http.dll
+/Users/villadsagerholm/Desktop/Programering c med kennet/bin/Debug/net9.0/Newtonsoft.Json.dll
+/Users/villadsagerholm/Desktop/Programering c med kennet/bin/Debug/net9.0/YahooFinanceApi.dll
+/Users/villadsagerholm/Desktop/Programering c med kennet/obj/Debug/net9.0/Programering c med kennet.csproj.AssemblyReference.cache
+/Users/villadsagerholm/Desktop/Programering c med kennet/obj/Debug/net9.0/Programe.29C28145.Up2Date

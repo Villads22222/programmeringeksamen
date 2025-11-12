@@ -1,0 +1,92 @@
+using System.Globalization;
+using System.IO;
+
+Console.WriteLine("Vil du opdatere din data? 1 ja 2 nej");
+
+int tf = int.Parse(Console.ReadLine());
+
+if (tf == 1) {
+    Console.WriteLine("Skriv dine opdaterede dataer?");
+
+string sigma1 = Console.ReadLine();
+File.AppendAllText("Nydata.txt", sigma1 + Environment.NewLine);
+
+string sigma2 = Console.ReadLine();
+File.AppendAllText("Nydata.txt", sigma2 + Environment.NewLine);
+
+string sigma3 = Console.ReadLine();
+File.AppendAllText("Nydata.txt", sigma3+ Environment.NewLine);
+
+File.Replace("Nydata.txt", "Maindata.txt", null);
+
+}
+
+
+
+Console.WriteLine("Vil du læse din data? 1 ja 2 nej");
+
+int tf1 = int.Parse(Console.ReadLine());
+if (tf1 == 1)
+{
+    var readText = File.ReadAllLines("Maindata.txt");
+
+    Console.WriteLine("Hvilken Linje vil du læse?");
+
+    int ind = int.Parse(Console.ReadLine());
+
+    string readLines = readText[ind];
+    Console.WriteLine(readLines);
+
+}
+
+
+
+
+
+
+
+
+
+Console.WriteLine("Har du allerade en bruger?");
+Console.WriteLine("Ja");
+Console.WriteLine("Nej");
+
+string harbruger = Console.ReadLine();
+
+
+
+if (harbruger == "nej" || harbruger == "Nej")
+{
+
+    while (true)
+    {
+        Console.WriteLine("Vil du lave et nyt emne?");
+        Console.WriteLine("Ja hvis du vil Nej hvis du er ferdig med at lave emner");
+
+        string ferdigemne = Console.ReadLine();
+
+        if (ferdigemne == "ja" || ferdigemne == "JA")
+        {
+            string emne;
+            Console.WriteLine("Skrive overteks op dit emne");
+
+            emne = Console.ReadLine();
+            File.AppendAllText(emne + ".txt", emne + Environment.NewLine);
+
+            int budget;
+            Console.WriteLine("Hvor stort er budgettet?");
+
+            budget = int.Parse(Console.ReadLine());
+            File.AppendAllText(emne + ".txt", budget + Environment.NewLine);
+
+            Console.Write("Emne Gemt");
+            Console.Clear();
+        }
+        else break;
+
+    }
+}
+else if (harbruger == "ja" || harbruger == "Ja"){
+    
+
+}
